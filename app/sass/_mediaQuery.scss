@@ -1,0 +1,43 @@
+@media only screen and (max-width: 1068px){
+h2{
+	font-size: 32px;
+	line-height: 1.125;
+	font-weight: 300;
+	letter-spacing: 0em;
+}
+
+	.watchSecond{
+		div{
+			padding-bottom: 50px;
+		}
+	}
+
+}
+
+@media only screen and (max-width: 735px){
+h2{
+	font-size: 28px;
+	line-height: 1.14286;
+	font-weight: 300;
+	letter-spacing: 0em;
+}
+	.watchSecond{
+		div{
+			text-align: left;
+	    	padding-bottom: 30px;
+		}
+		p{
+			padding-right: 5%;
+		}
+	}
+	.watchThird{
+		aside{
+			margin: 0;
+		}
+		.watchThirdDualContainer{
+			display: block;
+		}
+	}
+
+}
+
