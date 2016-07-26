@@ -1,30 +1,79 @@
 @media only screen and (max-width: 1068px){
-h2{
-	font-size: 32px;
-	line-height: 1.125;
-	font-weight: 300;
-	letter-spacing: 0em;
-}
-
+	h2{
+		font-size: 32px;
+		line-height: 1.125;
+		font-weight: 300;
+		letter-spacing: 0em;
+	}
 	.watchSecond{
+		background-image: url(../img/watch_os_banner_medium.jpg);
+		background-size: 770px 504px;
+		height: 504px;
 		div{
 			padding-bottom: 50px;
+		}
+	}
+	.watchThird{
+		aside{
+			height: 504px;
+		}	
+		div{
+		    width: auto;
+		    padding-left: 5%;
+		    padding-right: 5%;
+		    padding-bottom: 25px;
+		}
+		.watchThirdDualContainer{
+			.watchThirdOne{
+				background-image: url(../img/bands_medium.jpg);
+				background-size: 100% 504px;
+			}
+			.watchThirdTwo{
+				background-image: url(../img/hermes_medium.jpg), url(../img/hermes_bg_medium.jpg);
+				background-position: center 10px, left top;
+				background-repeat: no-repeat;
+				background-size: 333px 302px, 100% 504px;
+				h3{
+					background-image: url(../img/logo_hermes_medium.png);
+					margin: 0;
+					width: 185px;
+   					height: 21px;
+				}
+			}
+		}
+		article{
+			height: 504px;
+			background-image: url(../img/films_medium.jpg), url(../img/films_bg_medium.png);
+			background-size: contain, 100% 504px;
+		}
+		.watchThirdThree{
+			background-image: url(../img/accessories_medium.jpg), url(../img/accessories_bg_medium.jpg);
+			background-position: center 80px, center;
+			background-size: 314px 265px, 100% 504px;
+		}
+		.watchThirdFourth{
+			background-image: url(../img/store_medium.jpg);
 		}
 	}
 
 }
 
 @media only screen and (max-width: 735px){
-h2{
-	font-size: 28px;
-	line-height: 1.14286;
-	font-weight: 300;
-	letter-spacing: 0em;
-}
+	h2{
+		font-size: 28px;
+		line-height: 1.14286;
+		font-weight: 300;
+		letter-spacing: 0em;
+	}
 	.watchSecond{
+		background-image: url(../img/watch_os_banner_small.jpg);
+		background-size: 595px 480px;
+		height: 480px;
 		div{
 			text-align: left;
 	    	padding-bottom: 30px;
+	    	padding-left: 5%;
+    		padding-right: 5%;
 		}
 		p{
 			padding-right: 5%;
@@ -33,11 +82,47 @@ h2{
 	.watchThird{
 		aside{
 			margin: 0;
+			height: 480px;
+		}
+		div{
+		    width: auto;
+		    padding-left: 5%;
+		    padding-right: 5%;
+		    padding-bottom: 25px;
 		}
 		.watchThirdDualContainer{
 			display: block;
+			.watchThirdOne{
+				background-image: url(../img/bands_small.jpg);
+			}
+			.watchThirdTwo{
+				background-image: url(../img/hermes_small.jpg), url(../img/hermes_bg_small.jpg);
+				background-position: center 10px, left top;
+				background-repeat: no-repeat;
+				background-size: 233px 212px, 100% 480px;
+				h3{
+					background-image: url(../img/logo_hermes_small.png);
+					margin: 0;
+					width: 195px;
+    				height: 23px;
+				}
+			}
+		}
+		article{
+			height: 480px;
+			background-image: url(../img/films_small.jpg), url(../img/films_bg_small.png);
+			background-size: contain, 100% 480px;
+		}
+		.watchThirdThree{
+			background-image: url(../img/accessories_small.jpg), url(../img/accessories_bg_small.jpg);
+			background-position: center 80px, center;
+			background-size: 270px 227px, 100% 480px;
+		}
+		.watchThirdFourth{
+			background-image: url(../img/store_small.jpg);
 		}
 	}
+
 
 }
 
