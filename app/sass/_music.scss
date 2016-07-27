@@ -1,0 +1,61 @@
+.musicFirst{
+	min-height: 600px;
+    height: 100vh;
+    position: relative;
+	.musicHeroImageBack{
+		background-image: url(../img/overview_hero_background_large.jpg);
+		background-size: cover;
+	    background-position: center center;
+	    background-image: none;
+	}
+	.musicFirstHeadlineUp{
+		text-align: center;
+	    margin-bottom: 0;
+	    position: relative;
+	    top: 50%;
+	    transform: translateY(-50%);
+        margin-left: auto;
+		margin-right: auto;
+		width: 980px;
+		h1{
+			font-size: 72px;
+		    line-height: 1.0556;
+	   		font-weight: 200;	
+		}
+	}
+
+	.musicFirstHeadlineDown{
+		text-align: center;
+	    margin-bottom: 0;
+	    position: relative;
+	    top: 50%;
+	    transform: translateY(-50%);
+        margin-left: auto;
+		margin-right: auto;
+		width: 980px;
+		h1{
+			font-size: 64px;
+		    line-height: 1.0625;
+	   		font-weight: 200;	
+		}
+		p{
+		    font-size: 28px;
+		    line-height: 1.5714;
+		    font-weight: 200;
+		    margin-left: auto;
+		    margin-right: auto;
+		    max-width: 91.6667%;
+		    margin: 0 0 1em 0;
+		}
+		a{
+			font-size: 28px;
+		    line-height: 1.5714;
+		    font-weight: 200;
+		    margin-left: auto;
+		    margin-right: auto;
+		    max-width: 91.6667%;
+		    margin: 0 0 1em 0;
+		}
+	}
+	
+}

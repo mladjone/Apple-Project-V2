@@ -21,10 +21,6 @@
 			display: block;
 		}
 	}
-	a:after{
-		font-family: FontAwesome;
-		vertical-align: middle;
-	}
 	a.watchFirstKeynote:after{
 		content: '\f01d';
 	}
@@ -177,13 +173,6 @@
     		margin-top: -578px;
 		}
 	}
-}
-a.watchLinkChevron:after{
-	font-family: FontAwesome;
-	font-size: 11px;
-	vertical-align: middle;
-	content: '\f054';
-	margin-right: 1.5em;
 }
 .watchSecond{
 	background-image: url(../img/watch_os_banner_large.jpg);

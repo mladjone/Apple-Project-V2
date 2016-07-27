@@ -237,6 +237,33 @@ a{
   letter-spacing: 0em;
   color: black;
 }
+a:after{
+  font-family: FontAwesome;
+  vertical-align: middle;
+}
+a.watchLinkChevron:after{
+  font-family: FontAwesome;
+  font-size: 11px;
+  vertical-align: middle;
+  content: '\f054';
+  margin-right: 1.5em;
+}
+a.musicLinkArrow:after{
+  font-family: FontAwesome;
+  font-size: 11px;
+  vertical-align: middle;
+  content: '\f062';
+  margin-right: 1.5em;
+  display: inline-block;
+  transform: rotate(45deg);
+}
+sup{
+  font-size: .4em;
+  opacity: .8;
+  vertical-align: top;
+  position: relative;
+  bottom: -.2em;
+}
 /*
 html, body {
   font-family: 'Arial', sans-serif;
