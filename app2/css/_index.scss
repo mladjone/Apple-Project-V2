@@ -1,0 +1,103 @@
+
+
+
+/*  ---- Pre Footer Index ---- */
+
+.fcAll {
+	width: 24%;
+	margin-right: 1%;
+	padding: 8% 0%;
+	display: inline;
+}
+.fc1 {
+	background: url("../img/fourColumn1.jpg") no-repeat;
+	background-position: center;
+}
+.fc2 {
+	background: url("../img/fourColumn2.jpg") no-repeat;
+	background-position: center;
+}
+.fc3 {
+	background: url("../img/fourColumn3.jpg") no-repeat;
+	background-position: center;
+}
+.fc4 {
+	background: url("../img/fourColumn4.jpg") no-repeat;
+	background-position: center;
+	margin-right: 0;
+}
+
+/*  ---- END Pre Footer Index ---- */
+
+
+
+/*  ---- Image Slider (index.html) ---- */
+
+#slider {
+    max-width: 1100px;
+    width: 95%;
+    max-height: 650px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    .slides {
+    	display: block;
+	    width: 6000px;
+	    height: 650px;
+	    margin: 0;
+	    padding: 0;
+		.slide {
+		    float: left;
+		    list-style-type: none;
+		    max-width: 1100px;
+		    width: 100%;
+		    height: 650px;
+		    .sliderContent {
+		    	padding: 7% 3%;
+		    	margin: 0 auto;
+		    	text-align: center;
+		    	h1,p {
+		    		text-align: center;
+		    		color: $lightBlack;
+		    		display: inline;
+		    	}
+		    	p {
+		    		font-size: 165%;
+		    		display: block;
+		    	}
+		    }
+		}
+    }
+}
+
+ .slide1 {
+	background: url("../img/homeSlider1.jpg") no-repeat;
+	background-position: 50% 80%;
+	.iphoneS {
+		border: 2px solid $lightBlack;
+		border-radius: 15px;
+		padding: 1px 8px;
+	}
+}
+.slide2 {
+	background: url("../img/homeSlider2.jpg") no-repeat;
+	background-position: 50% 180%;
+}
+.slide3 {
+	background: url("../img/homeSlider3.jpg") no-repeat;
+	background-position: 50% 70%;
+	img {
+		display: inline;
+	}
+}
+.slide4 {
+	background: url("../img/homeSlider4.png") no-repeat;
+	background-position: 50% 62%;
+}
+
+/*  ---- END Image Slider (index.html) ---- */
+
+
+
+

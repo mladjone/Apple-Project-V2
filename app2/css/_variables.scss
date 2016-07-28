@@ -1,0 +1,43 @@
+/*  ---- Color ---- */
+
+$lightBlack: #333;
+$gray: #666;
+$darkWhite: #f2f2f2;
+$blue: #08c;
+
+
+/*  ---- END Color ---- */
+
+
+
+
+/*  --- Classes --- */
+
+.fourColumn {
+	float: left;
+	width: 25%;
+	margin: 0;
+	padding: 0;
+}
+
+.fiveColumn {
+	float: left;
+	width: 20%;
+	margin: 0;
+	padding: 0;
+}
+
+/*  ---- END Classess ----  */
+
+
+
+
+/* ------ Transition --------*/
+@mixin transition($var...) {
+	-webkit-transition: $var;
+	-moz-transition: $var;
+	-ms-transition: $var;
+	-o-transition: $var; 
+	transition: $var;
+}
+/*  --- END Transition ---  */
