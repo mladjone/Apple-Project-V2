@@ -1,0 +1,194 @@
+/* 
+
+There is code for all pages on this site, like navigation, footer ....
+
+ */
+
+
+
+/*  ----- Whole website code ----- */
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 100%;
+	font-family: 'Lato', sans-serif;
+}
+img {
+	max-width: 100%;
+	height: auto;
+} 
+
+a {
+	text-decoration: none;
+}
+
+.clearfix {
+	clear: both;
+}
+
+/*  ----- END Whole website code ----- */
+
+
+
+
+
+
+
+/*  --- Navigation Main --- */
+
+.navigationMain {
+	background-color: $lightBlack;
+	width: 100%;
+	nav {
+		font-size: 14px;
+		.hideNavigation {
+			display: inline;
+		}
+		.hamburger {
+			display: none;
+		}
+		ul {
+			margin: 0 auto; 
+		}
+		li {
+			display: inline;
+			padding: 2% 3.6%;
+		}
+		.liText {
+			line-height: 45px;		
+		}
+		a {
+			color: white;
+			@include transition(color .1s ease-in);
+			&:hover {
+				color: $gray*1.8;
+			}
+		}
+		svg {
+			position: absolute;
+			&:hover #Apple, &:hover #Search_1_, &:hover #korpa {
+				fill: $gray*1.8;
+			}
+			path { 
+				@include transition(fill .1s ease-in);
+			}
+		}
+
+	}
+	.modal {
+		background-color: black;
+		display: none;
+		height: 100%;
+		width: 100%;
+		position: fixed;
+		z-index: 20;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		.closeModall {
+			position: absolute;
+			left: 6%;
+			top: 2%;
+			color: $darkWhite;
+			cursor: pointer;
+			display: block;
+			@include transition(color .1s ease-in);
+			&:hover {
+				color: $gray*1.8;
+			}
+		}
+		svg {
+			position: absolute;
+			top: 1%;
+			left: 50%;
+			right: 50%;
+			&:hover #Apple {
+				fill: $gray*1.8;
+			}
+			path { 
+				@include transition(fill .1s ease-in);
+			}
+		}
+		.modalContent {
+			width: 90%;
+			padding: 13% 5%;
+
+			a {
+				color: $darkWhite;
+				display: block;
+				padding: 3% 0;
+				border-bottom: 1px solid $gray;
+				@include transition(color .1s ease-in);
+				&:hover {
+					color: $gray*1.8;
+				}
+			}
+			.searchModal {
+				border-bottom: 1px solid $darkWhite;
+			}
+		}
+	}
+
+}
+
+/*  --- END Navigation Main --- */
+
+
+
+
+
+
+/*  ------ Footer ------ */
+
+footer {
+	background-color: $darkWhite;
+	.allFooter {
+		width: 80%;
+		margin: 0 auto;
+	}
+	.fiveColumn {
+		span {
+			display: none;
+		}
+	}
+	a {
+		font-size: 11px;
+		color: $gray;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	h6 {
+		margin: 2px 0;
+		color: $lightBlack;
+	}
+
+	.downFooter {
+		h6 {
+			color: $gray *1.4;
+		}
+		.moreWaysH6 {
+			a {
+				color: $blue;
+				&:hover {
+					color: $gray
+				}
+			}
+		}
+	}
+	.copyrightFooter {
+		padding-bottom: 1%; 
+		span {
+			color: $gray *1.8;
+		}
+		h6 {
+			display: inline;
+			padding-right: 35px;
+		}
+		.usFlag {
+			float: right;
+		}
+	}
+}
+/*  ----- END Footer ---- */

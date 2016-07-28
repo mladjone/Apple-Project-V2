@@ -1,0 +1,100 @@
+/*  ---- Main navigation ---- */
+
+.colorOnThisPage {
+	color: $gray*1.8 !important;
+}
+/* ---- END Main navigation ---- */
+
+
+/*  ---- Navigation Music Page ----- */
+
+.navigationMusic {
+	background-color: rgba(51,51,51, 0.5);
+	line-height: 50px;
+	.contentNavMusic {
+		z-index: 500;
+		svg {
+			margin-left: 6%;
+			path, polygon, rect {
+				fill: white;
+			}
+		}
+		.listMenu {
+			float: right;
+			padding-right: 10%;
+		}
+		ul {
+			display: inline;
+		}
+		li {
+			display: inline;
+			padding: 0 8px;
+			a {
+				color: $darkWhite;
+				@include transition(color 0.3s);
+				&:hover {
+					color: $blue;
+				}
+			}
+		}
+		.try {
+			display: inline;
+			color: $darkWhite;
+			background-color: $blue;
+			padding: 2px 5px;
+			border-radius: 5px;
+			&:hover {
+				background-color: $blue*1.1;
+			}
+		}
+		/*  --- Visible only on mobile ---- */
+		.arrowDownMobile {
+			display: none;
+		}
+	}
+
+	/* ---- Fixed klasa ne postoji u HTML-u, vec se zadaje kroz JS... ---*/
+	.fixed {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		width: 100%;
+		background-color: transparent;
+	}
+
+	.fixed .nav-inner-most {
+		background-color: rgba(51,51,51, 0.5);
+	}
+
+}
+
+
+/*  ---- END Navigation Music Page ----- */
+
+
+/*  ----- Modal navigation Music ... ----- */
+.parentModal2 {
+	//position: relative;
+} 
+.modal2 {
+	background-color: rgba(11,11,11, 0.8);
+	display: none;
+	width: 100%;
+	position: fixed;
+	z-index: 20;
+	.modalContent2 {
+		width: 90%;
+		padding: 5%;
+		a {
+			color: $darkWhite;
+			display: block;
+			padding: 3% 0;
+			border-bottom: 1px solid $gray;
+			@include transition(color .1s ease-in);
+			&:hover {
+				color: $gray*1.8;
+			}
+		}
+	}
+}

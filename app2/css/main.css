@@ -1,0 +1,535 @@
+/*  --- Variables, mixins ... ---- */
+/*  ---- Color ---- */
+/*  ---- END Color ---- */
+/*  --- Classes --- */
+.fourColumn {
+  float: left;
+  width: 25%;
+  margin: 0;
+  padding: 0;
+}
+
+.fiveColumn {
+  float: left;
+  width: 20%;
+  margin: 0;
+  padding: 0;
+}
+
+/*  ---- END Classess ----  */
+/* ------ Transition --------*/
+/*  --- END Transition ---  */
+/*  --- Code for all pages ---- */
+/* 
+
+There is code for all pages on this site, like navigation, footer ....
+
+ */
+/*  ----- Whole website code ----- */
+.wrapper {
+  margin: 0 auto;
+  max-width: 100%;
+  font-family: 'Lato', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/*  ----- END Whole website code ----- */
+/*  --- Navigation Main --- */
+.navigationMain {
+  background-color: #333333;
+  width: 100%;
+}
+.navigationMain nav {
+  font-size: 14px;
+}
+.navigationMain nav .hideNavigation {
+  display: inline;
+}
+.navigationMain nav .hamburger {
+  display: none;
+}
+.navigationMain nav ul {
+  margin: 0 auto;
+}
+.navigationMain nav li {
+  display: inline;
+  padding: 2% 3.6%;
+}
+.navigationMain nav .liText {
+  line-height: 45px;
+}
+.navigationMain nav a {
+  color: white;
+  -webkit-transition: color 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in;
+  -o-transition: color 0.1s ease-in;
+  transition: color 0.1s ease-in;
+}
+.navigationMain nav a:hover {
+  color: #b7b7b7;
+}
+.navigationMain nav svg {
+  position: absolute;
+}
+.navigationMain nav svg:hover #Apple, .navigationMain nav svg:hover #Search_1_, .navigationMain nav svg:hover #korpa {
+  fill: #b7b7b7;
+}
+.navigationMain nav svg path {
+  -webkit-transition: fill 0.1s ease-in;
+  -moz-transition: fill 0.1s ease-in;
+  -ms-transition: fill 0.1s ease-in;
+  -o-transition: fill 0.1s ease-in;
+  transition: fill 0.1s ease-in;
+}
+.navigationMain .modal {
+  background-color: black;
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 20;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.navigationMain .modal .closeModall {
+  position: absolute;
+  left: 6%;
+  top: 2%;
+  color: #f2f2f2;
+  cursor: pointer;
+  display: block;
+  -webkit-transition: color 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in;
+  -o-transition: color 0.1s ease-in;
+  transition: color 0.1s ease-in;
+}
+.navigationMain .modal .closeModall:hover {
+  color: #b7b7b7;
+}
+.navigationMain .modal svg {
+  position: absolute;
+  top: 1%;
+  left: 50%;
+  right: 50%;
+}
+.navigationMain .modal svg:hover #Apple {
+  fill: #b7b7b7;
+}
+.navigationMain .modal svg path {
+  -webkit-transition: fill 0.1s ease-in;
+  -moz-transition: fill 0.1s ease-in;
+  -ms-transition: fill 0.1s ease-in;
+  -o-transition: fill 0.1s ease-in;
+  transition: fill 0.1s ease-in;
+}
+.navigationMain .modal .modalContent {
+  width: 90%;
+  padding: 13% 5%;
+}
+.navigationMain .modal .modalContent a {
+  color: #f2f2f2;
+  display: block;
+  padding: 3% 0;
+  border-bottom: 1px solid #666666;
+  -webkit-transition: color 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in;
+  -o-transition: color 0.1s ease-in;
+  transition: color 0.1s ease-in;
+}
+.navigationMain .modal .modalContent a:hover {
+  color: #b7b7b7;
+}
+.navigationMain .modal .modalContent .searchModal {
+  border-bottom: 1px solid #f2f2f2;
+}
+
+/*  --- END Navigation Main --- */
+/*  ------ Footer ------ */
+footer {
+  background-color: #f2f2f2;
+}
+footer .allFooter {
+  width: 80%;
+  margin: 0 auto;
+}
+footer .fiveColumn span {
+  display: none;
+}
+footer a {
+  font-size: 11px;
+  color: #666666;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+footer h6 {
+  margin: 2px 0;
+  color: #333333;
+}
+footer .downFooter h6 {
+  color: #8e8e8e;
+}
+footer .downFooter .moreWaysH6 a {
+  color: #0088cc;
+}
+footer .downFooter .moreWaysH6 a:hover {
+  color: #666666;
+}
+footer .copyrightFooter {
+  padding-bottom: 1%;
+}
+footer .copyrightFooter span {
+  color: #b7b7b7;
+}
+footer .copyrightFooter h6 {
+  display: inline;
+  padding-right: 35px;
+}
+footer .copyrightFooter .usFlag {
+  float: right;
+}
+
+/*  ----- END Footer ---- */
+/*  --- Index, first page ---- */
+/*  ---- Pre Footer Index ---- */
+.fcAll {
+  width: 24%;
+  margin-right: 1%;
+  padding: 8% 0%;
+  display: inline;
+}
+
+.fc1 {
+  background: url("../img/fourColumn1.jpg") no-repeat;
+  background-position: center;
+}
+
+.fc2 {
+  background: url("../img/fourColumn2.jpg") no-repeat;
+  background-position: center;
+}
+
+.fc3 {
+  background: url("../img/fourColumn3.jpg") no-repeat;
+  background-position: center;
+}
+
+.fc4 {
+  background: url("../img/fourColumn4.jpg") no-repeat;
+  background-position: center;
+  margin-right: 0;
+}
+
+/*  ---- END Pre Footer Index ---- */
+/*  ---- Image Slider (index.html) ---- */
+#slider {
+  max-width: 1100px;
+  width: 95%;
+  max-height: 650px;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+}
+#slider .slides {
+  display: block;
+  width: 6000px;
+  height: 650px;
+  margin: 0;
+  padding: 0;
+}
+#slider .slides .slide {
+  float: left;
+  list-style-type: none;
+  max-width: 1100px;
+  width: 100%;
+  height: 650px;
+}
+#slider .slides .slide .sliderContent {
+  padding: 7% 3%;
+  margin: 0 auto;
+  text-align: center;
+}
+#slider .slides .slide .sliderContent h1, #slider .slides .slide .sliderContent p {
+  text-align: center;
+  color: #333333;
+  display: inline;
+}
+#slider .slides .slide .sliderContent p {
+  font-size: 165%;
+  display: block;
+}
+
+.slide1 {
+  background: url("../img/homeSlider1.jpg") no-repeat;
+  background-position: 50% 80%;
+}
+.slide1 .iphoneS {
+  border: 2px solid #333333;
+  border-radius: 15px;
+  padding: 1px 8px;
+}
+
+.slide2 {
+  background: url("../img/homeSlider2.jpg") no-repeat;
+  background-position: 50% 180%;
+}
+
+.slide3 {
+  background: url("../img/homeSlider3.jpg") no-repeat;
+  background-position: 50% 70%;
+}
+.slide3 img {
+  display: inline;
+}
+
+.slide4 {
+  background: url("../img/homeSlider4.png") no-repeat;
+  background-position: 50% 62%;
+}
+
+/*  ---- END Image Slider (index.html) ---- */
+/*  --- Music --- */
+/*  ---- Main navigation ---- */
+.colorOnThisPage {
+  color: #b7b7b7 !important;
+}
+
+/* ---- END Main navigation ---- */
+/*  ---- Navigation Music Page ----- */
+.navigationMusic {
+  background-color: rgba(51, 51, 51, 0.5);
+  line-height: 50px;
+  /* ---- Fixed klasa ne postoji u HTML-u, vec se zadaje kroz JS... ---*/
+}
+.navigationMusic .contentNavMusic {
+  z-index: 500;
+  /*  --- Visible only on mobile ---- */
+}
+.navigationMusic .contentNavMusic svg {
+  margin-left: 6%;
+}
+.navigationMusic .contentNavMusic svg path, .navigationMusic .contentNavMusic svg polygon, .navigationMusic .contentNavMusic svg rect {
+  fill: white;
+}
+.navigationMusic .contentNavMusic .listMenu {
+  float: right;
+  padding-right: 10%;
+}
+.navigationMusic .contentNavMusic ul {
+  display: inline;
+}
+.navigationMusic .contentNavMusic li {
+  display: inline;
+  padding: 0 8px;
+}
+.navigationMusic .contentNavMusic li a {
+  color: #f2f2f2;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+}
+.navigationMusic .contentNavMusic li a:hover {
+  color: #0088cc;
+}
+.navigationMusic .contentNavMusic .try {
+  display: inline;
+  color: #f2f2f2;
+  background-color: #0088cc;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+.navigationMusic .contentNavMusic .try:hover {
+  background-color: #0095e0;
+}
+.navigationMusic .contentNavMusic .arrowDownMobile {
+  display: none;
+}
+.navigationMusic .fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: transparent;
+}
+.navigationMusic .fixed .nav-inner-most {
+  background-color: rgba(51, 51, 51, 0.5);
+}
+
+/*  ---- END Navigation Music Page ----- */
+/*  ----- Modal navigation Music ... ----- */
+.modal2 {
+  background-color: rgba(11, 11, 11, 0.8);
+  display: none;
+  width: 100%;
+  position: fixed;
+  z-index: 20;
+}
+.modal2 .modalContent2 {
+  width: 90%;
+  padding: 5%;
+}
+.modal2 .modalContent2 a {
+  color: #f2f2f2;
+  display: block;
+  padding: 3% 0;
+  border-bottom: 1px solid #666666;
+  -webkit-transition: color 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in;
+  -o-transition: color 0.1s ease-in;
+  transition: color 0.1s ease-in;
+}
+.modal2 .modalContent2 a:hover {
+  color: #b7b7b7;
+}
+
+/*  --- Responsive... --- */
+@media screen and (max-width: 1000px) {
+  /*  --- Classes --- */
+  .fourColumn {
+    min-width: 50%;
+    margin: 0 auto;
+  }
+
+  /* --- Pre Footer Index */
+  .fcAll {
+    min-width: 50%;
+    margin-right: 0 !important;
+    min-height: 70px;
+  }
+
+  /*  --- Navigation Main --- */
+  .navigationMain nav li {
+    padding: 2% 3% !important;
+  }
+}
+@media screen and (max-width: 910px) {
+  /*  --- Footer --- */
+  .copyrightFooter span {
+    color: #b7b7b7;
+  }
+  .copyrightFooter h6 {
+    display: block !important;
+    padding-right: 0;
+  }
+
+  /*  ---- Navigation Other - Music... */
+  .navigationMusic .contentNavMusic .listMenu {
+    padding-right: 4%;
+  }
+}
+@media screen and (max-width: 711px) {
+  /*  --- Classes --- */
+  .fourColumn {
+    min-width: 100%;
+  }
+
+  /* --- Pre Footer Index */
+  .fcAll {
+    min-width: 100%;
+    min-height: 125px;
+  }
+
+  /*  --- Footer ----  */
+  .allFooter {
+    min-width: 95%;
+  }
+
+  .fiveColumn {
+    min-width: 100%;
+  }
+  .fiveColumn span {
+    display: inline !important;
+    float: right;
+  }
+  .fiveColumn .hideOnMobile {
+    display: none;
+  }
+  .fiveColumn h6 {
+    min-width: 100% !important;
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 40px;
+    cursor: pointer;
+    border-bottom: 1px solid #d6d6d6;
+  }
+
+  .downFooter {
+    padding-top: 5%;
+  }
+  .downFooter .usFlag {
+    float: none !important;
+    display: block !important;
+    padding-top: 2%;
+  }
+
+  /*  --- Navigation Main ---- */
+  nav {
+    height: 55px;
+  }
+  nav .hideNavigation {
+    display: none !important;
+  }
+  nav .searchIconNav {
+    display: none !important;
+  }
+  nav .hamburger {
+    display: inline !important;
+    cursor: pointer;
+    position: absolute;
+    left: 1%;
+    top: 1%;
+  }
+  nav .logoIcon {
+    position: absolute;
+    left: 45%;
+    right: 48%;
+  }
+  nav .korpica {
+    position: absolute;
+    right: 4%;
+    top: 0;
+  }
+
+  /*  ---- Navigation Other - Music... */
+  .navigationMusic .contentNavMusic svg {
+    margin-left: 3%;
+  }
+  .navigationMusic .contentNavMusic .arrowDownMobile {
+    display: inline;
+    position: absolute;
+    left: 48%;
+    right: 48%;
+    margin-top: 2%;
+    cursor: pointer;
+    -webkit-transition: transform 0.5s;
+    -moz-transition: transform 0.5s;
+    -ms-transition: transform 0.5s;
+    -o-transition: transform 0.5s;
+    transition: transform 0.5s;
+  }
+  .navigationMusic .listMenu li {
+    display: none;
+  }
+}

@@ -1,0 +1,157 @@
+@media screen and (max-width: 1000px) {
+
+/*  --- Classes --- */
+	.fourColumn {
+		min-width: 50%;
+		margin: 0 auto;
+	}
+
+	/* --- Pre Footer Index */
+	.fcAll {
+		min-width: 50%;
+		margin-right: 0 !important;
+		min-height: 70px;
+	}
+
+/*  --- Navigation Main --- */
+	.navigationMain {
+		nav {
+			li {
+				padding: 2% 3% !important;
+			}
+		}
+	}
+
+}
+
+
+@media screen and (max-width: 910px) {
+
+/*  --- Footer --- */
+	.copyrightFooter {
+		span {
+			color: $gray *1.8;
+		}
+		h6 {
+			display: block !important;
+			padding-right: 0;
+		}
+	}
+
+/*  ---- Navigation Other - Music... */
+	.navigationMusic {
+		.contentNavMusic {
+			.listMenu {
+				padding-right: 4% ;
+			}
+		}
+	}
+
+}
+
+
+
+
+@media screen and (max-width: 711px) {
+
+/*  --- Classes --- */
+	.fourColumn {
+		min-width: 100%;
+	}
+
+/* --- Pre Footer Index */
+	.fcAll {
+		min-width: 100%;
+		min-height: 125px;
+	}
+
+
+/*  --- Footer ----  */
+
+	.allFooter {
+		min-width: 95%;
+	}
+
+	.fiveColumn {
+		min-width: 100%;
+		span {
+			display: inline !important;
+			float: right;
+		}
+		.hideOnMobile {
+			display: none;
+		}
+		h6 {
+			min-width: 100% !important;
+			font-size: 14px;
+			font-weight: lighter;
+			line-height: 40px;
+			cursor: pointer;
+			border-bottom: 1px solid $gray*2.1;
+		}
+	}
+
+	.downFooter {
+		padding-top: 5%;
+		.usFlag {
+			float: none !important;
+			display: block !important;
+			padding-top: 2%;
+		}
+	}
+
+
+/*  --- Navigation Main ---- */
+	nav {
+		height: 55px;
+		.hideNavigation {
+			display: none !important;
+		}
+		.searchIconNav {
+			display: none !important;
+		}
+		.hamburger {
+			display: inline !important;
+			cursor: pointer;	
+			position: absolute; 
+			left: 1%;
+			top: 1%;
+		}
+		.logoIcon {
+			position: absolute;
+			left: 45%;
+			right: 48%;
+		}
+		.korpica {
+			position: absolute;
+			right: 4%;
+			top: 0;
+		}
+	}
+
+
+/*  ---- Navigation Other - Music... */
+	.navigationMusic {
+		.contentNavMusic {
+			svg {
+				margin-left: 3%;			
+			}
+			.arrowDownMobile {
+				display: inline;
+				position: absolute;
+				left: 48%;
+				right: 48%;
+				margin-top: 2%;
+				cursor: pointer;
+				@include transition(transform 0.5s);
+			}
+		}
+		.listMenu {
+			li {
+				display: none;
+			}
+		}
+	}
+
+
+}
