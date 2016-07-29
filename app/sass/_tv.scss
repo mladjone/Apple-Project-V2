@@ -1,0 +1,204 @@
+ 	
+.page-overview .section-hero {
+    background: #f2f2f2;
+    padding-bottom: 120px;
+}
+.section-hero {
+    text-align: center;
+    padding-top: 0;
+}
+.section {
+    position: relative;
+    z-index: 1;
+    padding-top: 120px;
+}
+.section-content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+    position: relative;
+    z-index: 2;
+}
+
+.page-overview .section-hero .image-hero {
+    background-repeat: no-repeat;
+    background-size: 1620px 775px;
+    height: 775px;
+    width: 1620px;
+    margin-left: -320px;
+    background-image: url("img/tv/hero_large.jpg");
+    margin-bottom: -273px;
+}
+
+
+.page-overview .section-hero .image-tv-logo {
+    background-repeat: no-repeat;
+    background-size: 209px 100px;
+    height: 100px;
+    width: 209px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("img/tv/tv_logo_large.png");
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 106px;
+}
+
+
+
+.page-overview .section-hero .hero-headline {
+    margin-top: 36px;
+}
+
+.section-hero .hero-headline, .section-hero .intro {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-headline {
+    font-size: 64px;
+    line-height: 1.0625;
+    font-weight: 200;
+    letter-spacing: -.02em;
+}
+
+.page-overview .hero-links {
+    font-size: 24px;
+    line-height: 1.33333;
+    font-weight: 200;
+    letter-spacing: normal;
+}
+
+.page-overview .section-hero .hero-link:first-of-type.hero-link-centered {
+    margin-right: 0px;
+}
+
+.page-overview .section-hero .hero-link:first-of-type {
+    margin-right: 40px;
+}
+
+
+
+.page-overview .section-hero .hero-link span.icon {
+    display: inline-block;
+}
+
+
+.page-overview .section-hero .intro {
+    max-width: 895px;
+    margin-bottom: 0;
+}
+
+.intro {
+    font-size: 24px;
+    line-height: 1.35417;
+    font-weight: 200;
+    letter-spacing: normal;
+}
+
+.large-visible {
+    display: block;
+}
+
+.medium-visible {
+    display: none;
+}
+
+.row{
+	position: relative;
+    z-index: 1;
+}
+
+.large-7 {
+    width: 58.33333%;
+}
+
+.large-push-5 {
+    left: 41.66667%;
+    right: auto;
+}
+
+.column {
+    position: relative;
+    z-index: 1;
+    min-height: 2px;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.violator-compact {
+    font-size: 13px;
+    padding: 0 11px;
+    line-height: 22px;
+}
+
+.violator {
+    background: transparent;
+    border: 1px solid #999;
+    border-radius: 4px;
+    color: #999;
+    font-size: 15px;
+    line-height: 32px;
+    text-align: center;
+    white-space: nowrap;
+    padding: 0 16px;
+    display: inline-block;
+}
+
+.theme-dark {
+    background-color: #000;
+    color: #ccc;
+}
+
+.theme-dark h1, .theme-dark h2, .theme-dark h3, .theme-dark h4, .theme-dark h5, .theme-dark h6 {
+    color: #fff;
+}
+
+.section-headline {
+    font-size: 52px;
+    line-height: 1.08654;
+    font-weight: 200;
+    letter-spacing: -.014em;
+}
+
+
+.page-overview .section-tvos-preview .white {
+    color: white;
+}
+
+.page-overview .section-siri-remote .image-siri-screen-empire {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    background-size: 100% auto !important;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 1860px 1046px;
+    background-image: url("img/tv/siri_question_empire_large.jpg");
+    margin-left: auto;
+    margin-right: auto;
+}
+.page-overview .section-siri-remote .image-siri-screen-empire::before {
+    content: '';
+    display: block;
+    padding-bottom: 56.23656%;
+}
+
+.page-overview .image-caption {
+    position: absolute;
+    right: 0;
+    margin: 16px 0 0;
+    padding: 0 27px;
+    font-style: normal;
+    text-align: right;
+}
+
+.page-overview .section-siri-remote .image-siri-remote-small {
+    background-repeat: no-repeat;
+    background-size: 235px 641px;
+    height: 641px;
+    width: 235px;
+    background-image: url("img/tv/siri_remote_large.png");
+    display: none;
+}
