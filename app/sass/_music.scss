@@ -102,6 +102,22 @@
 	min-height: 1200px;
     height: 200vh;
     position: relative;
+	color: white;
+    .musicHeroVideo{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: 2;
+		video {
+			width: 100%;
+			height: 100vh;
+		    object-fit: cover;
+		    position: fixed;
+		    top: 0;
+		    left: 0;
+		    z-index: 1;
+		}
+	}
 	.musicHeroImageBack{
 		background-image: url(../img/overview_hero_background_large.jpg);
 		background-size: cover;
@@ -109,6 +125,8 @@
 	    background-image: none;
 	}
 	.musicFirstHeroOne{
+		position: relative;
+		z-index: 3;
 		min-height: 600px;
     	height: 100vh;
 		.musicFirstHeadlineUp{
@@ -125,9 +143,14 @@
 			    line-height: 1.0556;
 		   		font-weight: 200;	
 			}
+			a{
+				color: white;
+			}
 		}
 	}
 	.musicFirstHeroTwo{
+		position: relative;
+		z-index: 2;
 		min-height: 600px;
     	height: 100vh;
 		.musicFirstHeadlineDown{
@@ -161,7 +184,14 @@
 			    margin-right: auto;
 			    max-width: 91.6667%;
 			    margin: 0 0 1em 0;
+			    color: white;
 			}
 		}
 	}	
+}
+.musicPhones{
+	background-color: red;
+	height: 100vh;
+	position: relative;
+	z-index: 3;
 }
