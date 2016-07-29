@@ -38,6 +38,8 @@ a {
 .navigationMain {
 	background-color: $lightBlack;
 	width: 100%;
+	z-index: 999;
+	position: relative;
 	nav {
 		font-size: 14px;
 		.hideNavigation {
