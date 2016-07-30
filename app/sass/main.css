@@ -893,7 +893,8 @@ footer {
 
 .section-hero {
   text-align: center;
-  padding-top: 0; }
+  padding-top: 0;
+  /*gogo*/ }
 
 .section {
   position: relative;
@@ -1024,6 +1025,333 @@ footer {
 .page-overview .section-tvos-preview .white {
   color: white; }
 
+.theme-dark a {
+  color: white; }
+
+.more:after, .more .icon-htc {
+  top: 0;
+  padding-left: .3em; }
+
+.more:before, .more:after, .more .icon-htc {
+  display: inline-block;
+  color: inherit;
+  font-family: "AppleIcons";
+  font-style: normal;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: 1;
+  text-decoration: none;
+  position: relative;
+  z-index: 1; }
+
+.page-overview .section-tvos-preview {
+  background-color: #232629;
+  padding-bottom: 120px; }
+
+.page-overview .section-tvos-preview .image-tvos {
+  position: absolute; }
+
+.page-overview .section-tvos-preview .image-tvos-preview-glow {
+  background-repeat: no-repeat;
+  background-size: 1028px 623px;
+  height: 623px;
+  width: 1028px;
+  background-image: url("../img/tv/tvos_update_glow_large.png");
+  bottom: 0;
+  right: -160px; }
+
+.page-overview .section-tvos-preview .image-tvos-preview {
+  background-repeat: no-repeat;
+  background-size: 889px 508px;
+  height: 508px;
+  width: 889px;
+  background-image: url("../img/tv/tvos_update_tv_large.jpg");
+  bottom: -89px;
+  right: -494px; }
+
+.row:before, .row:after {
+  content: ' ';
+  display: table; }
+
+.row:after {
+  clear: both; }
+
+.section-content:after {
+  clear: both; }
+
+.section-content:before, .section-content:after {
+  content: ' ';
+  display: table; }
+
+.page-overview .section-entertainment {
+  position: relative;
+  overflow: hidden;
+  background-color: #fafafa; }
+
+.page-overview .section-entertainment .section-intro {
+  max-width: 860px; }
+
+.page-overview .section-intro {
+  text-align: center;
+  max-width: 895px;
+  margin: 0 auto; }
+
+.page-overview .section-intro .section-intro-headline {
+  font-size: 64px;
+  line-height: 1.0625;
+  font-weight: 200;
+  letter-spacing: -.02em; }
+
+.page-overview .section-intro .intro {
+  margin-bottom: 85px; }
+
+.page-overview .section-entertainment .large-7 {
+  width: 572px; }
+
+.large-7 {
+  width: 58.33333%; }
+
+.column {
+  position: relative;
+  z-index: 1;
+  min-height: 2px;
+  margin: 0;
+  padding: 0;
+  float: left; }
+
+.fog {
+  overflow: hidden;
+  display: block;
+  position: relative;
+  z-index: 1;
+  padding: 96px 75px;
+  box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.05);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d; }
+
+.fog:before {
+  content: '';
+  display: block;
+  position: absolute;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -3; }
+
+.callout-eyebrow {
+  font-size: 24px;
+  line-height: 1.33333;
+  font-weight: 200;
+  letter-spacing: normal;
+  color: #666; }
+
+.fog .section-headline {
+  margin-top: 22px;
+  margin-bottom: 14px; }
+
+.nowrap {
+  white-space: nowrap; }
+
+.page-overview .section-entertainment .image-show-grid-cloud.fog-cloud {
+  background-size: 3300px 200px !important; }
+
+.page-overview .section-entertainment .image-show-grid {
+  position: relative;
+  width: 3300px;
+  height: 678px; }
+
+.page-overview .section-entertainment .image-show-grid.fog-active::before {
+  -webkit-animation-name: showGridAnimationBeforeLarge;
+  animation-name: showGridAnimationBeforeLarge; }
+
+.page-overview .section-entertainment .image-show-grid.fog-active::after {
+  -webkit-animation-name: showGridAnimationAfterLarge;
+  animation-name: showGridAnimationAfterLarge; }
+
+.page-overview .section-entertainment .image-show-grid::before, .page-overview .section-entertainment .image-show-grid::after {
+  content: '';
+  display: block;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 3300px 678px;
+  height: 678px;
+  width: 3300px;
+  background-image: url("http://images.apple.com/v/tv/f/images/overview/show_grid_large.jpg");
+  -webkit-animation-duration: 160s;
+  animation-duration: 160s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite; }
+
+.fog [data-cloud] {
+  display: block;
+  position: absolute;
+  top: 0;
+  z-index: -2;
+  margin: 0;
+  padding: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d; }
+
+.more:after, .more .icon-htc {
+  top: 0;
+  padding-left: .3em; }
+
+.page-overview .section-entertainment .image-show-grid-cloud.fog-active::before {
+  -webkit-animation-name: showGridAnimationBeforeLarge;
+  animation-name: showGridAnimationBeforeLarge; }
+
+.page-overview .section-entertainment .image-show-grid-cloud::before, .page-overview .section-entertainment .image-show-grid-cloud::after {
+  content: '';
+  display: block;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 3300px 200px;
+  height: 200px;
+  width: 3300px;
+  background-image: url("http://images.apple.com/v/tv/f/images/overview/show_grid_blurred_large.jpg");
+  -webkit-animation-duration: 160s;
+  animation-duration: 160s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite; }
+
+.page-overview .section-entertainment .image-show-grid-cloud.fog-active::after {
+  -webkit-animation-name: showGridAnimationAfterLarge;
+  animation-name: showGridAnimationAfterLarge; }
+
+.page-overview .section-entertainment .siri-callout {
+  margin-top: 0; }
+
+.page-overview .section-entertainment .siri-callout, .page-overview .section-new-interface .siri-callout {
+  position: absolute;
+  top: 28%;
+  right: 3%;
+  margin-top: -121px; }
+
+.siri-callout.active {
+  opacity: 1; }
+
+.siri-callout {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  width: 295px;
+  color: white;
+  text-align: center;
+  opacity: 0; }
+
+.siri-callout.active .background {
+  -webkit-animation: background-scale 1.3s forwards;
+  animation: background-scale 1.3s forwards;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  background-color: #002683; }
+
+.siri-callout .background {
+  z-index: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #0071b9;
+  background-size: 100%;
+  box-shadow: 0 3px 10px transparent;
+  -webkit-transition: background-color 1s .5s, box-shadow 1s 0.5s;
+  transition: background-color 1s .5s, box-shadow 1s 0.5s;
+  border-radius: 5px;
+  -webkit-transform: translateY(0) scaleX(1) scaleY(0.1) scaleZ(1);
+  transform: translateY(0) scaleX(1) scaleY(0.1) scaleZ(1); }
+
+.siri-callout .siri-command-wrapper {
+  height: 10em;
+  position: relative;
+  margin-bottom: 55px; }
+
+.siri-callout.active .siri-command.on:first-child {
+  -webkit-animation-delay: 1s, 1.3233s;
+  animation-delay: 1s, 1.3233s; }
+
+.siri-callout.active .siri-command.on {
+  -webkit-animation: callout-message-in-translation 1.6s 0s, callout-message-in-opacity 0.46s 0.3233s both;
+  animation: callout-message-in-translation 1.6s 0s, callout-message-in-opacity 0.46s 0.3233s both; }
+
+.siri-callout .siri-command {
+  position: absolute;
+  z-index: 3;
+  padding: 0 30px;
+  margin: 0;
+  top: 50%;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+.siri-command, .siri-command-alternative {
+  font-size: 24px;
+  line-height: 1.33333;
+  font-weight: 200;
+  letter-spacing: normal; }
+
+.page-overview .section-games-and-more .image-games-and-more-screen {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  background-size: 100% auto !important;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 1860px 1046px;
+  background-image: url("../img/tv/apps_and_games_large.jpg");
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 0; }
+
+.max-width {
+  max-width: 1860px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.page-overview .section-games-and-more .image-games-and-more-screen::before {
+  content: '';
+  display: block;
+  padding-bottom: 56.23656%; }
+
+.page-overview .section-new-interface .image-interface-screen {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  background-size: 100% auto !important;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 1860px 1046px;
+  background-image: url("../img/tv/interface_large.jpg");
+  margin-left: auto;
+  margin-right: auto; }
+
+.page-overview .section-new-interface .image-interface-screen::before {
+  content: '';
+  display: block;
+  padding-bottom: 56.23656%; }
+
+.page-overview .section-siri-remote .image-siri-remote {
+  background-repeat: no-repeat;
+  background-size: 235px 641px;
+  height: 641px;
+  width: 235px;
+  background-image: url("../img/tv/siri_remote_large.png");
+  position: absolute;
+  top: -20px;
+  left: 83px; }
+
 .page-overview .section-siri-remote .image-siri-screen-empire {
   position: relative;
   z-index: 1;
@@ -1041,6 +1369,9 @@ footer {
   display: block;
   padding-bottom: 56.23656%; }
 
+html.no-touch a:hover {
+  text-decoration: underline; }
+
 .page-overview .image-caption {
   position: absolute;
   right: 0;
@@ -1049,13 +1380,18 @@ footer {
   font-style: normal;
   text-align: right; }
 
-.page-overview .section-siri-remote .image-siri-remote-small {
+.no-oldie {
+  display: block; }
+
+.page-overview .section-touch-surface .image-touch-remote {
   background-repeat: no-repeat;
-  background-size: 235px 641px;
-  height: 641px;
-  width: 235px;
-  background-image: url("../img/tv/siri_remote_large.png");
-  display: none; }
+  background-size: 452px 1062px;
+  height: 1062px;
+  width: 452px;
+  background-image: url("../img/tv/touch_remote_large.png");
+  position: absolute;
+  top: 60px;
+  right: -52px; }
 
 @media only screen and (max-width: 1068px) {
   h1 {
