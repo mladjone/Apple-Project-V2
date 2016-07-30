@@ -37,7 +37,8 @@
 	    	top: 0;
 	    	.watchImage{
 	    		background-repeat: no-repeat;
-			    mask-repeat: no-repeat;
+			    -webkit-mask-repeat: no-repeat;
+			            mask-repeat: no-repeat;
 			    position: relative;
 			    margin: 0;
 			    transition: transform 1.5s ease-out;
@@ -52,7 +53,8 @@
 		        width: 225px;
     			height: 242px;
 	    		background-image: url(../img/watch_01_medium.jpg);
-			    mask-image: url(../img/watch_01_mask_medium.svg);
+			    -webkit-mask-image: url(../img/watch_01_mask_medium.svg);
+			            mask-image: url(../img/watch_01_mask_medium.svg);
 				left: 260px;
 	    		margin-top: -10px;
 			}
@@ -60,7 +62,8 @@
 			    width: 269px;
     			height: 226px;
 			    background-image: url(../img/watch_02_medium.jpg);
-			    mask-image: url(../img/watch_02_mask_medium.svg);
+			    -webkit-mask-image: url(../img/watch_02_mask_medium.svg);
+			            mask-image: url(../img/watch_02_mask_medium.svg);
 				left: -30px;
     			margin-top: -88px;
 			}
@@ -68,7 +71,8 @@
 			    width: 368px;
     			height: 337px;
 	    		background-image: url(../img/watch_03_medium.jpg);
-	    		mask-image: url(../img/watch_03_mask_medium.svg);
+	    		-webkit-mask-image: url(../img/watch_03_mask_medium.svg);
+	    		        mask-image: url(../img/watch_03_mask_medium.svg);
 				left: 142px;
    				margin-top: -64px;
 			}
@@ -79,7 +83,8 @@
 		        width: 259px;
     			height: 223px;
 	    		background-image: url(../img/watch_04_medium.jpg);
-			    mask-image: url(../img/watch_04_mask_medium.svg);
+			    -webkit-mask-image: url(../img/watch_04_mask_medium.svg);
+			            mask-image: url(../img/watch_04_mask_medium.svg);
 		        left: 335px;
     			margin-top: -50px;
 			}
@@ -87,7 +92,8 @@
 			    width: 316px;
     			height: 340px;
 			    background-image: url(../img/watch_05_medium.jpg);
-			    mask-image: url(../img/watch_05_mask_medium.svg);
+			    -webkit-mask-image: url(../img/watch_05_mask_medium.svg);
+			            mask-image: url(../img/watch_05_mask_medium.svg);
 			    left: -16px;
     			margin-top: -125px;
 			}
@@ -95,7 +101,8 @@
 			    width: 481px;
     			height: 544px;
 	    		background-image: url(../img/notifications_0000_medium.jpg);
-	    		mask-image: url(../img/notifications_0000_medium.svg);
+	    		-webkit-mask-image: url(../img/notifications_0000_medium.svg);
+	    		        mask-image: url(../img/notifications_0000_medium.svg);
 			    left: 215px;
     			margin-top: -74px;
 			}
@@ -106,7 +113,8 @@
 		        width: 306px;
     			height: 253px;
 	    		background-image: url(../img/watch_07_medium.jpg);
-			    mask-image: url(../img/watch_07_mask_medium.svg);
+			    -webkit-mask-image: url(../img/watch_07_mask_medium.svg);
+			            mask-image: url(../img/watch_07_mask_medium.svg);
 		        left: -152px;
     			margin-top: -132px;
 			}
@@ -114,7 +122,8 @@
 				width: 295px;
     			height: 354px;
 			    background-image: url(../img/watch_08_medium.jpg);
-			    mask-image: url(../img/watch_08_mask_medium.svg);
+			    -webkit-mask-image: url(../img/watch_08_mask_medium.svg);
+			            mask-image: url(../img/watch_08_mask_medium.svg);
 			    left: 32px;
     			margin-top: -4px;
 			}
@@ -122,7 +131,8 @@
 				width: 409px;
     			height: 427px;
 	    		background-image: url(../img/fitness_0000_medium.jpg);
-	    		mask-image: url(../img/fitness_0000_medium.svg);
+	    		-webkit-mask-image: url(../img/fitness_0000_medium.svg);
+	    		        mask-image: url(../img/fitness_0000_medium.svg);
 			    left: 236px;
     			margin-top: -170px;
 			}
@@ -133,7 +143,8 @@
 		        width: 328px;
     			height: 286px;
 	    		background-image: url(../img/watch_10_medium.jpg);
-			    mask-image: url(../img/watch_10_mask_medium.svg);
+			    -webkit-mask-image: url(../img/watch_10_mask_medium.svg);
+			            mask-image: url(../img/watch_10_mask_medium.svg);
 				left: -94px;
     			margin-top: -146px;
 			}
@@ -141,7 +152,8 @@
 			    width: 318px;
     			height: 280px;
 			    background-image: url(../img/watch_11_medium.jpg);
-			    mask-image: url(../img/watch_11_mask_medium.svg);
+			    -webkit-mask-image: url(../img/watch_11_mask_medium.svg);
+			            mask-image: url(../img/watch_11_mask_medium.svg);
 				left: 216px;
     			margin-top: -64px;
 			}
@@ -149,7 +161,8 @@
 			    width: 394px;
     			height: 525px;
 	    		background-image: url(../img/personalization_0000_medium.jpg);
-	    		mask-image: url(../img/personalization_0000_medium.svg);
+	    		-webkit-mask-image: url(../img/personalization_0000_medium.svg);
+	    		        mask-image: url(../img/personalization_0000_medium.svg);
 				left: 14px;
     			margin-top: -30px;
 			}
@@ -157,7 +170,8 @@
 			    width: 322px;
     			height: 322px;
     			background-image: url(../img/watch_13_medium.jpg);
-	    		mask-image: url(../img/watch_13_mask_medium.svg);
+	    		-webkit-mask-image: url(../img/watch_13_mask_medium.svg);
+	    		        mask-image: url(../img/watch_13_mask_medium.svg);
 			    left: -259px;
     			margin-top: -108px;
 			}
@@ -165,7 +179,8 @@
 			    width: 250px;
     			height: 268px;
 	    		background-image: url(../img/watch_14_medium.jpg);
-	    		mask-image: url(../img/watch_14_mask_medium.svg);
+	    		-webkit-mask-image: url(../img/watch_14_mask_medium.svg);
+	    		        mask-image: url(../img/watch_14_mask_medium.svg);
 		        left: 418px;
     			margin-top: -345px;
 			}
@@ -261,7 +276,8 @@
 	    	top: 0;
 	    	.watchImage{
 	    		background-repeat: no-repeat;
-			    mask-repeat: no-repeat;
+			    -webkit-mask-repeat: no-repeat;
+			            mask-repeat: no-repeat;
 			    position: relative;
 			    margin: 0;
 			    transition: transform 1.5s ease-out;
@@ -273,7 +289,8 @@
 			    width: 121px;
     			height: 128px;
 	    		background-image: url(../img/watch_01_small.jpg);
-			    mask-image: url(../img/watch_01_mask_small.svg);
+			    -webkit-mask-image: url(../img/watch_01_mask_small.svg);
+			            mask-image: url(../img/watch_01_mask_small.svg);
 			    left: -12px;
     			margin-top: 14px;
 			}
@@ -281,7 +298,8 @@
 				width: 164px;
     			height: 138px;
 			    background-image: url(../img/watch_02_small.jpg);
-			    mask-image: url(../img/watch_02_mask_small.svg);
+			    -webkit-mask-image: url(../img/watch_02_mask_small.svg);
+			            mask-image: url(../img/watch_02_mask_small.svg);
 				left: -172px;
     			margin-top: -18px;
 			}
@@ -289,7 +307,8 @@
 				width: 223px;
     			height: 205px;
 	    		background-image: url(../img/watch_03_small.jpg);
-	    		mask-image: url(../img/watch_03_mask_small.svg);
+	    		-webkit-mask-image: url(../img/watch_03_mask_small.svg);
+	    		        mask-image: url(../img/watch_03_mask_small.svg);
 				left: -2px;
     			margin-top: -110px;
 			}
@@ -300,7 +319,8 @@
 			    width: 203px;
     			height: 175px;
 	    		background-image: url(../img/watch_04_small.jpg);
-			    mask-image: url(../img/watch_04_mask_small.svg);
+			    -webkit-mask-image: url(../img/watch_04_mask_small.svg);
+			            mask-image: url(../img/watch_04_mask_small.svg);
 			    left: 11px;
 			    top: 0;
 			    margin-top: -60px;
@@ -309,7 +329,8 @@
 				width: 215px;
     			height: 238px;
 			    background-image: url(../img/watch_05_small.jpg);
-			    mask-image: url(../img/watch_05_mask_small.svg);
+			    -webkit-mask-image: url(../img/watch_05_mask_small.svg);
+			            mask-image: url(../img/watch_05_mask_small.svg);
 				left: -194px;
     			margin-top: -30px;
 			}
@@ -317,7 +338,8 @@
 				width: 358px;
     			height: 364px;
 	    		background-image: url(../img/notifications_0000_small.jpg);
-	    		mask-image: url(../img/notifications_0000_small.svg);
+	    		-webkit-mask-image: url(../img/notifications_0000_small.svg);
+	    		        mask-image: url(../img/notifications_0000_small.svg);
 				left: 6px;
     			margin-top: -120px;
     			margin-bottom: -50px;
@@ -329,7 +351,8 @@
 			    width: 196px;
     			height: 162px;
 	    		background-image: url(../img/watch_07_small.jpg);
-			    mask-image: url(../img/watch_07_mask_small.svg);
+			    -webkit-mask-image: url(../img/watch_07_mask_small.svg);
+			            mask-image: url(../img/watch_07_mask_small.svg);
 			    left: -6px;
     			margin-top: -40px;
 			}
@@ -337,7 +360,8 @@
 				width: 168px;
     			height: 202px;
 			    background-image: url(../img/watch_08_small.jpg);
-			    mask-image: url(../img/watch_08_mask_small.svg);
+			    -webkit-mask-image: url(../img/watch_08_mask_small.svg);
+			            mask-image: url(../img/watch_08_mask_small.svg);
 				left: -144px;
     			margin-top: -15px;
 			}
@@ -345,7 +369,8 @@
 				width: 231px;
     			height: 241px;
 	    		background-image: url(../img/fitness_0000_small.jpg);
-	    		mask-image: url(../img/fitness_0000_small.svg);
+	    		-webkit-mask-image: url(../img/fitness_0000_small.svg);
+	    		        mask-image: url(../img/fitness_0000_small.svg);
 				left: -24px;
 			    margin-top: -92px;
 			    margin-bottom: 10px;
@@ -360,7 +385,8 @@
 			    width: 186px;
     			height: 162px;
 	    		background-image: url(../img/watch_10_small.jpg);
-			    mask-image: url(../img/watch_10_mask_small.svg);
+			    -webkit-mask-image: url(../img/watch_10_mask_small.svg);
+			            mask-image: url(../img/watch_10_mask_small.svg);
 			    left: -200px;
     			margin-top: -10px;
 			}
@@ -368,7 +394,8 @@
 			    width: 187px;
 				height: 138px;
 			    background-image: url(../img/watch_11_small.jpg);
-			    mask-image: url(../img/watch_11_mask_small.svg);
+			    -webkit-mask-image: url(../img/watch_11_mask_small.svg);
+			            mask-image: url(../img/watch_11_mask_small.svg);
 				left: 0;
 			    top: -30px;
 			    margin-top: -30px;
@@ -377,7 +404,8 @@
 				width: 207px;
     			height: 276px;
 	    		background-image: url(../img/personalization_0000_small.jpg);
-	    		mask-image: url(../img/personalization_0000_small.svg);
+	    		-webkit-mask-image: url(../img/personalization_0000_small.svg);
+	    		        mask-image: url(../img/personalization_0000_small.svg);
 				left: -176px;
     			margin-top: -82px;
 			}
@@ -388,7 +416,8 @@
 				width: 154px;
     			height: 165px;
 	    		background-image: url(../img/watch_14_small.jpg);
-	    		mask-image: url(../img/watch_14_mask_small.svg);
+	    		-webkit-mask-image: url(../img/watch_14_mask_small.svg);
+	    		        mask-image: url(../img/watch_14_mask_small.svg);
 			    left: 58px;
 				margin-top: -170px;
 			}
