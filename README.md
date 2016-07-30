@@ -1,2 +1,4 @@
 # Apple-Project-V2
-Aj jovo nanovo
+Exercise
+Aj jovo nanovo.
+Drobke, Mladja, Nemanja tri fantastiko.
